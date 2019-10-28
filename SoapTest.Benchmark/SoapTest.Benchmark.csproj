@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Versions\**\*.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.0" />
+    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.12.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoapTest.Common\SoapTest.Common.csproj" />
+    <ProjectReference Include="..\Version0\Version0.csproj" />
+    <ProjectReference Include="..\Version1\Version1.csproj" />
+    <ProjectReference Include="..\Version2\Version2.csproj" />
+    <ProjectReference Include="..\Version3\Version3.csproj" />
+    <ProjectReference Include="..\Version4\Version4.csproj" />
+    <ProjectReference Include="..\Version5\Version5.csproj" />
+    <ProjectReference Include="..\Version6\Version6.csproj" />
+    <ProjectReference Include="..\Version7\Version7.csproj" />
+  </ItemGroup>
+
+</Project>

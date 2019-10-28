@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoapTest.Common\SoapTest.Common.csproj" />
+    <ProjectReference Include="..\Version0\Version0.csproj" />
+    <ProjectReference Include="..\Version1\Version1.csproj" />
+    <ProjectReference Include="..\Version2\Version2.csproj" />
+    <ProjectReference Include="..\Version3\Version3.csproj" />
+    <ProjectReference Include="..\Version4\Version4.csproj" />
+    <ProjectReference Include="..\Version5\Version5.csproj" />
+    <ProjectReference Include="..\Version6\Version6.csproj" />
+    <ProjectReference Include="..\Version7\Version7.csproj" />
+  </ItemGroup>
+
+</Project>
